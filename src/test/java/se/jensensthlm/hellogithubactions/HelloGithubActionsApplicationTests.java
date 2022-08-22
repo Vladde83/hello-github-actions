@@ -2,12 +2,18 @@ package se.jensensthlm.hellogithubactions;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class HelloGithubActionsApplicationTests {
 
     @Test
-    void contextLoads() {
+    void dummyTestPass() {
+        assertTrue(true);
     }
 
+    @Test
+    void dummyTestNoPass() {
+        assertTrue(true);
+    }
 }
